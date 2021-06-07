@@ -1,0 +1,111 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-family: 'Inter';
+  font-weight: 700;
+  padding: 40px 40px 30px 40px;
+
+}
+
+h2 {
+  font-family: 'Lexend Deca';
+}
+
+h3 {
+  padding-bottom: 5px;
+}
+p {
+  color: #FFFFFFC0;
+  padding: 0 50px 50px 40px;
+}
+
+.data {
+  background-color: hsl(244, 38%, 16%);
+  color: white;
+  border-radius: 8px 0px 0px 8px;
+  font-family: 'Lexend Deca';
+}
+
+.container {
+padding: 0 5%;
+margin-top: 8%;
+
+
+}
+
+.image {
+ 
+  min-height: 60vh;
+  background-color: #AA5CDB;
+  background-image: url('images/image-header-mobile.jpg');
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  border-radius: 0px 8px 8px 0;
+}
+
+
+.title {
+  padding-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 0;
+    text-align: left;
+  }
+
+.subtitle {
+  padding-bottom: 10px;
+   
+    font-size: 0.65rem;
+    text-align: left;
+    
+    color: #FFFFFFC0;
+  }
+
+.data {
+  padding: 5px;
+}
+ 
+.stat {
+  padding: 0 0 0 8%;
+}
+ .attribution {
+   text-align: center;
+ }
+  @media only screen and (max-width: 1200px) {
+   
+    body{
+      width: 100%;
+      text-align: center;
+    }
+    .container {
+      max-width: 960px;
+      padding: 40px 10px 40px 10px;
+      margin: 0 10px 0 10px;
+    }
+      
+    .data {
+      border-radius: 0px 0px 8px 8px;
+      padding: 0;
+    }
+
+  .image {
+    
+    border-radius: 8px 8px 0px 0;
+    padding: 3%;
+  }
+  .title, .subtitle {
+    text-align: center;
+    padding-bottom: 10px;
+    
+    
+  }
+
+  
+
+    }
